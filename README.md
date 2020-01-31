@@ -1,4 +1,4 @@
-# 스프링레거시공부 연습@
+# 스프링레거시공부 연습
 
 ## 1. @Controller
 -해당 어노테이션은 Spring-Context에 Controller 객체를 저장해준다.
@@ -31,4 +31,24 @@
 ## 7. @jackson-mapper 라이브러리
 -해당 라이브러리는 요청시 json데이터를 java Object로 변환해주는 필터이다.
 -응답시 java Object를 json데이터로 변환해주는 필터이다.
+
+## 8. Git 사용법
+--git init
+--git add
+
+--git config --global "ssar@nate.com"
+--git config --global "ssar"
+
+--git commit -m "스프링 레거시 테스트 완료"
+
+--git remote add origin https://github.com/codingsepcialist/spring-legacy-test.git
+
+--git push origin master
+
+--https://github.com/csh123-bit/spring-legacy-test
+
+## 9. Git 재배포
+--git add .
+--git commit -m"스프링 레거시 테스트 완료2"
+--git push origin master
 
